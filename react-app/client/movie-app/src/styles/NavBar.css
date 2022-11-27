@@ -1,0 +1,33 @@
+nav {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav span{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: medium;
+}
+nav span:hover{
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+    color:blue;
+}
+.input-box input{
+    position: relative;
+    width: 320px;
+    height: 25px;
+    margin-right: 30px;
+}
+.input-box input[type='text']{
+    padding-left: 17px;
+    font-size: 1rem;
+    color: black;
+}
+
